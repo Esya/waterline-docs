@@ -689,7 +689,8 @@ var Foo = Waterline.Collection.extend({
 
 ###### autoCreatedAt
 
-A flag to toggle the automatic timestamp for createdAt.
+If set to false, will disable the automatic timestamp for createdAt.
+If set to a string, it will override the attribute name with the one you provide.
 
 ```javascript
 var Foo = Waterline.Collection.extend({
@@ -704,7 +705,8 @@ var Foo = Waterline.Collection.extend({
 
 ###### autoUpdatedAt
 
-A flag to toggle the automatic timestamp for updatedAt.
+If set to false, will disable the automatic timestamp for updatedAt.
+If set to a string, it will override the attribute name with the one you provide.
 
 ```javascript
 var Foo = Waterline.Collection.extend({
